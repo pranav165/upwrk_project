@@ -8,8 +8,8 @@ import requests
 
 requests.packages.urllib3.disable_warnings()
 
-client = boto3.client('sqs', aws_access_key_id='AKIATIQOEEPMUU7IFPXH',
-                      aws_secret_access_key='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',
+client = boto3.client('sqs', aws_access_key_id='',
+                      aws_secret_access_key='',
                       region_name='eu-west-2', verify=False)
 queue_url = 'https://sqs.eu-west-2.amazonaws.com/565045766653/BALAG711171VK9GP_SYS.fifo'
 
